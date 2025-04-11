@@ -14,7 +14,7 @@ from utils.files.file_utils import save_generated_data, initialize_directories
 from utils.generated_runners import run_audio_animation
 from utils.neurosync.multi_part_return import get_tts_with_blendshapes
 from utils.neurosync.neurosync_api_connect import send_audio_to_neurosync
-from utils.tts.livepeer_tts import get_elevenlabs_audio
+from utils.tts.eleven_labs import get_elevenlabs_audio
 from utils.tts.local_tts import call_local_tts
 from livelink.connect.livelink_init import create_socket_connection, initialize_py_face
 from livelink.animations.default_animation import default_animation_loop, stop_default_animation
